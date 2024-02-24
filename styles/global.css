@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   margin: 1.5;
+}
+
+body {
+   border: 10px solid yellow;
+   background-image: url('../image/pattern-background-mobile.svg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+}
+

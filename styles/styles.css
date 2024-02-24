@@ -1,0 +1,26 @@
+:root {
+   /* Primary Colors */
+
+   --primary-pale-blue: hsl(225, 100%, 94%);
+   /* Pale blue */
+   --primary-bright-blue: hsl(245, 75%, 52%);
+   /* Bright blue */
+
+
+   /* Neutral Colors */
+   
+   --neutral-very-pale-blue: hsl(225, 100%, 98%);
+   /* Very pale blue */
+   --neutral-desaturated-blue: hsl(224, 23%, 55%);
+   /* Desaturated blue */
+   --neutral-dark-blue: hsl(223, 47%, 23%);
+   /* Dark blue */
+}
+
+.hero__title {
+   color: var(--neutral-dark-blue);
+}
+
+.hero-desc{
+   color: var(--neutral-desaturated-blue);
+}

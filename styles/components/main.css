@@ -1,0 +1,7 @@
+.main{
+   border:1px solid red ;
+   background-color: var(--neutral-very-pale-blue);
+   margin:0 1rem;
+   border-radius:20px;
+}
+
