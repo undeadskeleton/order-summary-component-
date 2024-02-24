@@ -11,11 +11,21 @@
 }
 
 body {
-   border: 10px solid yellow;
    background-image: url('../image/pattern-background-mobile.svg');
+   height:100vh;
+   padding:1rem;
    background-size: cover;
    background-repeat: no-repeat;
    display: flex;
    align-items: center;
 }
 
+
+@media (min-width:600px){
+   body{
+      background-image: url('../../image/../../image/pattern-background-desktop.svg');
+      background-size: 61.25rem 118.9375rem ;
+      align-items:center;
+      justify-content: center;
+   }
+}

@@ -6,13 +6,19 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+   <!-- FONT-FILE -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+   
    <title>Order summary card</title>
    <!-- CSS-FILE -->
    <link rel="stylesheet" href="styles/global.css">
+   <link rel="stylesheet" href="styles/components/text-wrapper.css">
    <link rel="stylesheet" href="styles/components/main.css">
    <link rel="stylesheet" href="styles/components/hero.css">
    <link rel="stylesheet" href="styles/components/pricing.css">
+   <link rel="stylesheet" href="styles/components/btn.css">
    <link rel="stylesheet" href="styles/styles.css">
    <link rel="stylesheet" href="styles/utility.css">
 
@@ -21,27 +27,35 @@
 
 <body>
    <main class="main">
-            <img class="hero__image-img" src="image/illustration-hero.svg" alt="hero image">
-            <section class="text-wrapper">
-               
-               <section class="hero">
+      <img class="hero__image-img" src="image/illustration-hero.svg" alt="hero image">
+      <section class="text-wrapper">
+
+         <section class="hero">
             <h1 class="hero__title section"> Order Summary
             </h1>
             <p class="hero-desc section">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
             </p>
-      </section>
-      <section class="pricing">
-         Annual Plan
-         $59.99/year
-         
-         Change
-      </section>
+         </section>
+         <section class="pricing">
+            <img src="image/icon-music.svg" class="pricing__music-icon" alt="">
 
-      
+            <span class="pricing_price">
+               <span class="pricing__price-plan">Annual Plan</span>
+               <span class="pricing__price-amount">$59.99/year</span>
+            </span>
 
-      Proceed to Payment
-      Cancel Order
-                  </section>
+            <a href="#" class="pricing__change"> Change
+            </a>
+         </section>
+         <section class="btn">
+            <div class="btn__proceed section">
+               Proceed to Payment
+            </div>
+            <div class="btn__cancel section">
+               Cancel Order
+            </div>
+         </section>
+      </section>
 
    </main>
 

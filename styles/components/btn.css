@@ -1,0 +1,28 @@
+.btn{
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+  width:100%;
+  padding:0 1rem;
+}
+
+.btn__proceed{
+      width:100%;
+      background-color: var(--primary-bright-blue);
+      color: white;
+      padding:1rem 2rem;
+      text-align: center;
+      border-radius:15px;
+}
+
+.btn__proceed:hover{
+   background-color: hsla(245, 75%, 52%, 0.3)
+}
+
+.btn__cancel{
+   color:var(--neutral-desaturated-blue);
+}
+
+.btn__cancel:hover{
+     color: var(--neutral-dark-blue);
+}

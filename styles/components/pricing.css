@@ -1,0 +1,26 @@
+.pricing{
+   display:flex;
+   align-items: center;
+   gap:2rem;
+   padding:1rem;
+   border-radius:20px;
+}
+
+.pricing__music-icon{
+   flex:1;
+}
+
+.pricing_price{
+   display: flex;
+   flex-direction: column;
+   flex:2;
+}
+
+
+.pricing__change{
+   flex:1;
+}
+
+.pricing__change:hover{
+   text-decoration: none;
+}

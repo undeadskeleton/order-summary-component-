@@ -1,20 +1,22 @@
 :root {
    /* Primary Colors */
 
-   --primary-pale-blue: hsl(225, 100%, 94%);
+   --primary-pale-blue: hsla(225, 100%, 94%, 1);
    /* Pale blue */
-   --primary-bright-blue: hsl(245, 75%, 52%);
+   --primary-bright-blue: hsla(245, 75%, 52%, 1);
    /* Bright blue */
 
 
    /* Neutral Colors */
    
-   --neutral-very-pale-blue: hsl(225, 100%, 98%);
+   --neutral-very-pale-blue: hsla(225, 100%, 98%, 1);
    /* Very pale blue */
-   --neutral-desaturated-blue: hsl(224, 23%, 55%);
+   --neutral-desaturated-blue: hsla(224, 23%, 55%, 1);
    /* Desaturated blue */
-   --neutral-dark-blue: hsl(223, 47%, 23%);
+   --neutral-dark-blue: hsla(223, 47%, 23%, 1);
    /* Dark blue */
+   font-family: "Red Hat Display", sans-serif;
+   font-weight:500;
 }
 
 .hero__title {
@@ -24,3 +26,16 @@
 .hero-desc{
    color: var(--neutral-desaturated-blue);
 }
+
+.pricing{
+   background-color: var(--neutral-very-pale-blue);
+}
+
+.pricing__price-plan{
+   color:var(--neutral-dark-blue);
+}
+
+.pricing__price-amount{
+   color: var(--neutral-desaturated-blue);
+}
+
