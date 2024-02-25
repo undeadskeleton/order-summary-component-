@@ -1,31 +1,37 @@
 *,
 *::before,
 *::after {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-   padding: 0;
-   margin: 0;
-   margin: 1.5;
+  padding: 0;
+  margin: 0;
+  margin: 1.5;
 }
 
 body {
-   background-image: url('../image/pattern-background-mobile.svg');
-   height:100vh;
-   padding:1rem;
-   background-size: cover;
-   background-repeat: no-repeat;
-   display: flex;
-   align-items: center;
+  background-image: url("../image/pattern-background-mobile.svg");
+  /* height: 100vh; */
+  padding: 0 1.3rem;
+  background-color: var(--primary-pale-blue);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 }
 
+@media (min-width: 600px) {
+  body {
+    background-image: url("../../image/../../image/pattern-background-desktop.svg");
+    background-size: 61.25rem 118.9375rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
-@media (min-width:600px){
-   body{
-      background-image: url('../../image/../../image/pattern-background-desktop.svg');
-      background-size: 61.25rem 118.9375rem ;
-      align-items:center;
-      justify-content: center;
-   }
+@media (min-width: 1440px) {
+  body {
+    background-size: contain;
+  }
 }
